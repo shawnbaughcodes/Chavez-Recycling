@@ -1,0 +1,100 @@
+/* General Tag Edits */
+
+html {}
+
+body {
+    margin-top: 0px;
+    background-color: #19848A;
+    padding: 0%;
+    background: url("WEB PICS/bokeh.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
+
+/* Landing Edits */
+
+#landing {
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+
+/* map shit */
+
+#location {
+    height: 500px;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map-container {
+    width: 100%;
+    height: 350px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*contact shit*/
+
+#contact {
+    max-width: 100%;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#contact h2 {
+    padding-top: 2%;
+    color: white;
+}
+
+#contact a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 1%;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+#contact a:hover {
+    background: black;
+}
+
+#contact p {
+    padding-top: 1%;
+}
+
+
+/* Card Edits */
+
+.col-sm-6 {
+    padding-top: 5%;
+}
+
+.card-img-top {
+    padding-top: 5%;
+    height: 350px;
+    width: 400px;
+    border-radius: 3px;
+}
